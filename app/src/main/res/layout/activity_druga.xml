@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".druga"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/wiadomosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="treść wiadomości"
+        />
+
+    <EditText
+        android:id="@+id/imie_nazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="imie nazwisko"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/ulica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ulica"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="miasto"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        />
+
+    <Button
+        android:id="@+id/przycisk_wyslij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyślij"
+        />
+
+    <Button
+        android:id="@+id/przycisk_powrot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powrót"
+        />
+
+</LinearLayout>
